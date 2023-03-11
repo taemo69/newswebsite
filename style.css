@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.top img {
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.top p {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -6%;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+}
+
+.dropbtn {
+    color: rgb(255, 12, 12);
+    padding: 16px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 25px;
+    border-color: red;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    margin-left: 25%;
+    top: 6%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.dropdown-content a {
+    color: rgb(221, 65, 65);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search {
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.signup {
+    margin-left: 47%;
+}
+
+.topnav {
+    margin-left: 5%;
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+.dropbtn2,
+.dropbtn3,
+.dropbtn4,
+.dropbtn5,
+.dropbtn6,
+.dropbtn7,
+.dropbtn8 {
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+
+}
+
+.agri,
+.environment,
+.health,
+.goverance,
+.enterprise,
+.communication,
+.more {
+    display: inline-block;
+}
+
+.dropdown-content2,
+.dropdown-content3,
+.dropdown-content4,
+.dropdown-content5,
+.dropdown-content6,
+.dropdown-content7,
+.dropdown-content8 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+.dropdown-content2 a,
+.dropdown-content3 a,
+.dropdown-content4 a,
+.dropdown-content5 a,
+.dropdown-content6 a,
+.dropdown-content7 a,
+.dropdown-content8 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    overflow: hidden;
+
+
+}
+
+.agri:hover .dropdown-content2,
+.environment:hover .dropdown-content3,
+.health:hover .dropdown-content4,
+.goverance:hover .dropdown-content5,
+.enterprise:hover .dropdown-content6,
+.communication:hover .dropdown-content7,
+.more:hover .dropdown-content8 {
+    display: block;
+    background-color: gray;
+}
+
+.banner {
+    background-image: url(lithium.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.india h1 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.india p {
+    padding-left: 150px;
+    color: white;
+    padding-bottom: 10%
+}
+
+.news {
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px 10px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    display: block;
+}
+
+.latestnewstitle {
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.newslist {
+    margin-left: 5%;
+}
+
+.newslist td {
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.latestonhealth {
+    margin-left: 125px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.latesthealth {
+    margin-top: 30px;
+}
+
+.gt p span {
+    position: absolute;
+    padding: 10px 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+}
+
+.lt p span {
+    position: absolute;
+    padding: 10px 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color: rgb(54, 48, 48);
+    color: white;
+}
+
+.furtherstoriestitle {
+    margin-left: 125px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.loadmore a {
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+.container {
+    background-color: rgb(75, 74, 74);
+}
+
+.last {
+    color: white;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+.sponsors td {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.sponsors table {
+    margin-left: 8%;
+}
+
+.lastdesc p {
+    margin-top: 10px;
+    color: white;
+    margin-left: 10%;
+    font-weight: 100;
+}
+
+.terms a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.terms {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.terms p {
+    color: white;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.media {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -23%;
+}
+
+.t {
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+.sidebanner {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 5%;
+}
+
+.sidebanner2 {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 20%;
+}
+
+.mostpopular {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 35%;
+}
+
+.popularlist p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.popularlist p span {
+    background-color: rgb(37, 76, 99);
+    padding: 5px 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.sidebanner3 {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: -5%;
+}
+
+.sidebanner4 {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 20%;
+}
+
+.sidebanner4 p {
+    font-weight: 200;
+}
+
+.sidebanner5 {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 40%;
+}
+
+.sidebanner5 p {
+    font-weight: 200;
+}
+
+.sidebanner6 {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 55%;
+}
+
+.sidebanner6 p {
+    font-weight: 200;
+}
+
+.sidebanner4 a,
+.sidebanner5 a,
+.sidebanner6 a {
+    color: red;
+}
